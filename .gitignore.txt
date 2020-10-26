@@ -511,7 +511,6 @@ MigrationBackup/
 # Ignore .pdf files
 *.pdf
 
-#Ignore files inside AreaAndPerimeterOfCircle Folder
-.net/AreaAndPerimeterOfCircle/AreaAndPerimeterOfCircle/
+
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudio,aspnetcore
