@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6DD8301F-2103-416E-86DC-1A5603AAFCD3}</ProjectGuid>
+    <ProjectGuid>{A76A4127-09D4-4B4B-BAF5-B7DAB9815E17}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Roll_Dice_Game_App</RootNamespace>
-    <AssemblyName>Roll-Dice-Game-App</AssemblyName>
+    <RootNamespace>ISPSolution</RootNamespace>
+    <AssemblyName>ISPSolution</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Logic.cs" />
+    <Compile Include="Model\IWork.cs" />
+    <Compile Include="Model\IWorkEat.cs" />
+    <Compile Include="Model\Managers.cs" />
+    <Compile Include="Model\Robots.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
